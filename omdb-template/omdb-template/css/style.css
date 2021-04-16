@@ -1,0 +1,41 @@
+body{
+    background-color: aliceblue;
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    border: 2px solid rgb(180, 176, 176);
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type=text]:focus{
+    border: 3px solid #555;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+img{
+    border: 10px solid rgb(195, 178, 178);
+    border-radius: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    transition: 0.25s ease-in-out;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+p{
+    text-align: center;
+    font-size: 1.7rem;
+}
